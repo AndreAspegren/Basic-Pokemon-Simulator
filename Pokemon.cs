@@ -31,8 +31,7 @@ namespace Pokemon
         {
             _health -= dmg;
         }
-
-        public Pokemon(){}
+        internal Pokemon(){}
 
         public List<Pokemon> pokemonList = new()
         {
